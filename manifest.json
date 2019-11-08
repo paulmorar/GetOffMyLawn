@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Get Off My Lawn",
+  "description": "Approves unstable tests, because why not?",
+  "version": "1.0.0",
+  "author": "Pablo Trollinero",
+
+  "permissions": ["activeTab"],
+
+  "browser_action": {
+    "default_icon": "icons/goml.png",
+    "default_title": "GET OFF MY LAWN!",
+    "default_popup": "popup.html"
+  }
+}
